@@ -1,0 +1,47 @@
+.course-info-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    border: 2px solid lightblue;
+
+    h2 {
+        text-align: center;
+    }
+
+    .backtocourses-button-container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .course-all-info {
+        display: flex;
+        justify-content: space-between;
+
+        .course-description-info {
+            width: 50%;
+            
+            p {
+                text-align: left;
+            }
+        }
+
+        .course-other-info {
+            width: 40%;
+
+            .info-list {
+                list-style: none;
+
+                li {
+                    text-align: left;
+                    margin-bottom: 1rem;
+                    
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        
+    }
+}

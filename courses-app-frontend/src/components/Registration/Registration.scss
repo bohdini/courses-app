@@ -1,0 +1,34 @@
+.registration-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .registration-input-container {
+        width: 20%;
+
+        .register-input {
+            margin-bottom: 1rem;
+            width: 90%;
+        }
+    }
+    
+    .login-redirect {
+        color: #0000CD	;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .error-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        .error {
+            color: red;
+            margin-bottom: 0.5rem;
+        }
+    }
+}

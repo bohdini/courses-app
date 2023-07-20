@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    // justify-content: space-between;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    // width: 100%;
+    border: 2px solid lightgreen;
+    
+
+    .card-left {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        .card-title {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .card-description {
+            margin-top: 0.5rem;
+        }
+    }
+
+    .card-right {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+        // align-items: flex-start;
+
+        .card-authors {
+            text-overflow: ellipsis; /* enables ellipsis */
+            white-space: nowrap; /* keeps the text in a single line */
+            overflow: hidden; /* keeps the element from overflowing its parent */
+        }
+
+        .card-authors, .card-duration, .card-creation-date {
+            margin-bottom: 0.5rem;
+        }
+
+        .card-show-course-container {
+            display: flex;
+            justify-content: flex-end;
+
+            .course-card-button {
+                padding: 0.5rem 1rem;
+                margin: 0 0.5rem;
+            }
+        }
+    }
+}

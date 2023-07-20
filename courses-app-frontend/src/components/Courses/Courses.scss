@@ -1,0 +1,27 @@
+.courses-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    border: 2px solid lightblue;
+
+    .courses-tools {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .courses-list {
+        display: flex;
+        // justify-content: center;
+        // align-items: center;
+        flex-direction: column;
+        padding: 0;
+        list-style: none;
+
+        .no-courses {
+            // display: flex;
+            // justify-content: center;
+            text-align: center;
+        }
+    }
+}
